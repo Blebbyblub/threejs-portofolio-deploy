@@ -34,7 +34,7 @@ const Projects = () => {
       <p className="head-text">My Selected Work</p>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
-        <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
+        <div className="flex flex-col justify-between gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200 min-h-[550px]">
           <div className="absolute top-0 right-0">
             <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
           </div>
@@ -46,8 +46,8 @@ const Projects = () => {
           <div className="flex flex-col gap-5 text-white-600 my-5">
             <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
 
-            <p className="animatedText">{currentProject.desc}</p>
-            <p className="animatedText">{currentProject.subdesc}</p>
+            <p className="animatedText text-justify">{currentProject.desc}</p>
+            <p className="animatedText text-justify">{currentProject.subdesc}</p>
           </div>
 
           <div className="flex items-center justify-between flex-wrap gap-5">
@@ -64,7 +64,7 @@ const Projects = () => {
               href={currentProject.href}
               target="_blank"
               rel="noreferrer">
-              <p>Check Live Site</p>
+              <p>Check Demo</p>
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
           </div>
