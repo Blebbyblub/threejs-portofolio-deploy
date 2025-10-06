@@ -62,9 +62,9 @@ Here is the list of all the resources used in the project video:
 
 - [Hacker Room](https://sketchfab.com/3d-models/hacker-room-stylized-a0cfe6edf2dd494c8a95addf6bb13a10)
 - [Computer](https://sketchfab.com/3d-models/3d-computer-sketchfab-weekly-11-mar23-d9931a9aba7c4ea1bc12b2a59dcef16e)
-- [Python Logo (bye Axel X)](https://iconscout.com/free-3d-icon/free-python-3d-icon_5326385)
+- [Python Logo (by Axel X)](https://iconscout.com/free-3d-icon/free-python-3d-icon_5326385)
 - [React Logo](https://sketchfab.com/3d-models/react-logo-76174ceeba96487f9863f974636f641e)
-- [MySQL Logo (bye Soni Sokell)](https://iconscout.com/free-3d-icon/free-mysql-3d-icon_9325319)
+- [MySQL Logo (by Soni Sokell)](https://iconscout.com/free-3d-icon/free-mysql-3d-icon_9325319)
 - [gltfjsx](https://gltf.pmnd.rs/)
 - [ReadyPlayerMe](https://readyplayer.me/)
 - [Mixamo](https://www.mixamo.com/)
