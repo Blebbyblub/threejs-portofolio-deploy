@@ -64,12 +64,8 @@ Here is the list of all the resources used in the project video:
 - [Computer](https://sketchfab.com/3d-models/3d-computer-sketchfab-weekly-11-mar23-d9931a9aba7c4ea1bc12b2a59dcef16e)
 - [Python Logo (bye Axel X)](https://iconscout.com/free-3d-icon/free-python-3d-icon_5326385)
 - [React Logo](https://sketchfab.com/3d-models/react-logo-76174ceeba96487f9863f974636f641e)
-- [MySQL Logo (bye Soni Sokell)] (https://iconscout.com/free-3d-icon/free-mysql-3d-icon_9325319)
+- [MySQL Logo (bye Soni Sokell)](https://iconscout.com/free-3d-icon/free-mysql-3d-icon_9325319)
 - [gltfjsx](https://gltf.pmnd.rs/)
 - [ReadyPlayerMe](https://readyplayer.me/)
 - [Mixamo](https://www.mixamo.com/)
 - [FBX Animations ZIP](https://drive.google.com/file/d/1yQhrRvEQFEwxbjG2qelv_T-gAatXJ3N1/view?usp=sharing)
-
-## <a name="assets">🔗 Assets</a>
-
-Models and Assets used in the project can be found [here](https://drive.google.com/file/d/1UiJyotDmF2_tBC-GeLpRZuFY_gx5e7iX/view?usp=sharing)
