@@ -59,12 +59,6 @@ export const myProjects = [
       'We applied these findings to design a mobile application concept that merges the Pomodoro technique with game-like rewards. Using Figma, I led the creation of interactive UI/UX prototypes, ensuring usability and user engagement. Through this process, I strengthened my leadership, design reasoning, and ability to translate research insights into practical solutions.',
     href: 'https://www.figma.com/proto/YNeWSAH9qi9wMSZCTKhUAr/PomoQuest?node-id=13-156&p=f&t=6KhQPTH3mXcXyma8-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A156&show-proto-sidebar=1',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
     spotlight: '/assets/spotlight1.png',
     tags: [
       {
@@ -96,12 +90,6 @@ export const myProjects = [
       'Through iterative problem solving, I implemented backend logic, designed the data flow, and structured the project to ensure scalability and maintainability. This process not only enhanced my technical proficiency but also developed my ability to approach problems logically, conduct independent research, and build effective solutions.',
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/stream.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FDemo%20projectBNCC%2FProjectBNCC%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1b0cc37d%2D8944%2D43b9%2D9d92%2D2ed5a91be1a0',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
     spotlight: '/assets/spotlight2.png',
     tags: [
       {
@@ -133,14 +121,6 @@ export const myProjects = [
       'I conducted functional testing to validate system reliability and applied the User Experience Questionnaire (UEQ) to measure usability and engagement. The results demonstrated that AR can effectively enhance learning by providing safe, interactive, and enjoyable practice environments.',
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/stream.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FReactionsAR%2FReactionsAR%5FTrailer%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17b0ee4c%2Dc291%2D454b%2Dae5e%2D53638b3c8af3',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
     spotlight: '/assets/spotlight3.png',
     tags: [
       {
@@ -172,12 +152,6 @@ export const myProjects = [
       'I contributed by designing initial prototypes in Figma to ensure usability and visual clarity, then developing core frontend features including login, registration, and dashboard pages using HTML, CSS, and Tailwind. We also performed user testing to gather feedback and refine the platform’s functionality. This project strengthened my ability to connect research insights with practical design, implement frontend solutions, and collaborate within a multidisciplinary team.',
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FDemo%20SkillUp&ga=1',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
     spotlight: '/assets/spotlight4.png',
     tags: [
       {
@@ -209,12 +183,6 @@ export const myProjects = [
       'As a developer, I contributed to building the MVP that detects SIBI gestures using YOLO and Azure Cognitive Services. I also supported the integration of Text-to-Speech, Speech-to-Text, and chatbot features, ensuring smooth system functionality. This experience enhanced my skills in applied AI development, problem-solving under time constraints, and creating impactful solutions aligned with SDG 4 (Quality Education).',
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/stream.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FDemo%20INSIGNIA%2FDEMO%2D%20Made%20with%20Clipchamp%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efc3446cf%2Dfa4d%2D462c%2D8caa%2Dd5ea02a23f67',
     texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
     spotlight: '/assets/spotlight5.png',
     tags: [
       {

@@ -4,15 +4,16 @@ import { Canvas } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
 import { PerspectiveCamera } from '@react-three/drei';
 
-import Cube from '../components/Cube.jsx';
-import Rings from '../components/Rings.jsx';
 import ReactLogo from '../components/ReactLogo.jsx';
-import Button from '../components/Button.jsx';
-import Target from '../components/Target.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import HeroCamera from '../components/HeroCamera.jsx';
 import { calculateSizes } from '../constants/index.js';
 import { HackerRoom } from '../components/HackerRoom.jsx';
+import UnityLogo from '../components/UnityLogo.jsx';
+import FigmaLogo from '../components/FigmaLogo.jsx';
+import PythonLogo from '../components/PythonLogo.jsx';
+import GithubLogo from '../components/GithubLogo.jsx';
+import MysqlLogo from '../components/MysqlLogo.jsx';
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -44,6 +45,11 @@ const Hero = () => {
 
             <group>
               <ReactLogo position={sizes.reactLogoPosition} />
+              <UnityLogo position={sizes.unityLogoPosition} />
+              <FigmaLogo position={sizes.figmaLogoPosition} />
+              <PythonLogo position={sizes.pythonLogoPosition} />
+              <GithubLogo position={sizes.githubLogoPosition} />
+              <MysqlLogo position={sizes.mysqlLogoPosition} />
             </group>
 
             <ambientLight intensity={1} />
