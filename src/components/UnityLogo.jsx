@@ -10,7 +10,7 @@ import React, { useRef } from 'react';
 import { Float, useGLTF } from '@react-three/drei';
 
 const UnityLogo = (props) => {
-  const { nodes, materials } = useGLTF('models/unityLogo.glb');
+  const { nodes, materials } = useGLTF('./models/unityLogo.glb');
   return (
     <Float floatIntensity={1}>
       <group position={[8, 8, 0]} scale={3} {...props} dispose={null}>
@@ -28,6 +28,6 @@ const UnityLogo = (props) => {
   );
 };
 
-useGLTF.preload('models/unityLogo.glb');
+useGLTF.preload('./models/unityLogo.glb');
 
 export default UnityLogo;

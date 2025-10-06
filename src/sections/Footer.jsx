@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="flex gap-3">
         <a href="https://github.com/Blebbyblub" target="_blank" rel="noopener noreferrer" className="social-icon">
-          <img src="/assets/github.svg" alt="GitHub" className="w-1/2 h-1/2" />
+          <img src="./assets/github.svg" alt="GitHub" className="w-1/2 h-1/2" />
         </a>
 
         <a
@@ -17,7 +17,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon">
-          <img src="/assets/linkedin.svg" alt="LinkedIn" className="w-1/2 h-1/2" />
+          <img src="./assets/linkedin.svg" alt="LinkedIn" className="w-1/2 h-1/2" />
         </a>
 
         <a
@@ -25,7 +25,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon">
-          <img src="/assets/instagram.svg" alt="Instagram" className="w-1/2 h-1/2" />
+          <img src="./assets/instagram.svg" alt="Instagram" className="w-1/2 h-1/2" />
         </a>
       </div>
 

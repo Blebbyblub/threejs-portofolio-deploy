@@ -6,7 +6,7 @@ import React, { useRef } from 'react';
 import { Float, useGLTF } from '@react-three/drei';
 
 const PythonLogo = (props) => {
-  const { nodes, materials } = useGLTF('models/python.glb');
+  const { nodes, materials } = useGLTF('./models/python.glb');
   return (
     <Float {...props} dispose={null}>
       <mesh
@@ -31,6 +31,6 @@ const PythonLogo = (props) => {
   );
 };
 
-useGLTF.preload('models/python.glb');
+useGLTF.preload('./models/python.glb');
 
 export default PythonLogo;

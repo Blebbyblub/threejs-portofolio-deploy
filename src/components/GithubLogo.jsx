@@ -10,7 +10,7 @@ import React from 'react';
 import { Float, useGLTF } from '@react-three/drei';
 
 const GithubLogo = (props) => {
-  const { nodes } = useGLTF('models/github.glb');
+  const { nodes } = useGLTF('./models/github.glb');
 
   return (
     <Float floatIntensity={5} rotationIntensity={0}>
@@ -25,6 +25,6 @@ const GithubLogo = (props) => {
   );
 };
 
-useGLTF.preload('models/github.glb');
+useGLTF.preload('./models/github.glb');
 
 export default GithubLogo;

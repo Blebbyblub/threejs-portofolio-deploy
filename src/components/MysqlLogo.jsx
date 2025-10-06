@@ -12,7 +12,7 @@ import { Float, useGLTF } from '@react-three/drei';
  * @param {object} props Other props passed to the Float component.
  */
 const MysqlLogo = ({ dolphinColor = '#ffffffff', baseColor = '#00A2FF', ...props }) => {
-  const { nodes, materials } = useGLTF('models/mysql.glb');
+  const { nodes, materials } = useGLTF('./models/mysql.glb');
 
   return (
     <Float floatIntensity={0.2}>
@@ -39,6 +39,6 @@ const MysqlLogo = ({ dolphinColor = '#ffffffff', baseColor = '#00A2FF', ...props
   );
 };
 
-useGLTF.preload('models/mysql.glb');
+useGLTF.preload('./models/mysql.glb');
 
 export default MysqlLogo;

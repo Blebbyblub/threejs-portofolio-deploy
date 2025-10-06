@@ -10,7 +10,7 @@ import React, { useRef } from 'react';
 import { Float, useGLTF } from '@react-three/drei';
 
 const FigmaLogo = (props) => {
-  const { nodes, materials } = useGLTF('models/figma.glb');
+  const { nodes, materials } = useGLTF('./models/figma.glb');
   return (
     <Float FloatIntensity={1}>
       <group position={[8, 8, 0]} scale={3} {...props} dispose={null}>
@@ -28,6 +28,6 @@ const FigmaLogo = (props) => {
   );
 };
 
-useGLTF.preload('models/figma.glb');
+useGLTF.preload('./models/figma.glb');
 
 export default FigmaLogo;
