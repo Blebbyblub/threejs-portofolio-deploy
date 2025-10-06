@@ -16,41 +16,6 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
-];
-
 export const myProjects = [
   {
     title: 'PomoQuest – Gamified Time Management App (UI/UX Design)',
@@ -60,28 +25,6 @@ export const myProjects = [
     href: 'https://www.figma.com/proto/YNeWSAH9qi9wMSZCTKhUAr/PomoQuest?node-id=13-156&p=f&t=6KhQPTH3mXcXyma8-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A156&show-proto-sidebar=1',
     texture: '/textures/project/project1.mp4',
     spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
   },
   {
     title: 'ProjectBNCC – Personal Backend Development Project',
@@ -91,28 +34,6 @@ export const myProjects = [
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/stream.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FDemo%20projectBNCC%2FProjectBNCC%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1b0cc37d%2D8944%2D43b9%2D9d92%2D2ed5a91be1a0',
     texture: '/textures/project/project2.mp4',
     spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
   },
   {
     title: 'Reactions – AR Based Science Practice Application',
@@ -122,28 +43,6 @@ export const myProjects = [
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/stream.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FReactionsAR%2FReactionsAR%5FTrailer%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17b0ee4c%2Dc291%2D454b%2Dae5e%2D53638b3c8af3',
     texture: '/textures/project/project3.mp4',
     spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
   },
   {
     title: 'SkillUp – Peer-to-Peer Soft Skills Learning Platform',
@@ -153,28 +52,6 @@ export const myProjects = [
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FDemo%20SkillUp&ga=1',
     texture: '/textures/project/project4.mp4',
     spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
   },
   {
     title: 'InSignia – Real-time SIBI Detection for Inclusive Education',
@@ -184,28 +61,6 @@ export const myProjects = [
     href: 'https://binusianorg-my.sharepoint.com/personal/raenault_bandaso_binus_ac_id/_layouts/15/stream.aspx?id=%2Fpersonal%2Fraenault%5Fbandaso%5Fbinus%5Fac%5Fid%2FDocuments%2FDemo%20INSIGNIA%2FDEMO%2D%20Made%20with%20Clipchamp%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efc3446cf%2Dfa4d%2D462c%2D8caa%2Dd5ea02a23f67',
     texture: '/textures/project/project5.mp4',
     spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
   },
 ];
 
@@ -213,42 +68,6 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-    cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-    ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-    targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
   };
 };
-
-export const workExperiences = [
-  {
-    id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-    icon: '/assets/framer.svg',
-    animation: 'victory',
-  },
-  {
-    id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title:
-      'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
-];
